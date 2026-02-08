@@ -29,6 +29,9 @@ return {
 				"pylint",
 				"eslint_d",
 				"ruff",
+				"js-debug-adapter", -- JS/TS debug adapter
+				"debugpy", -- Python debug adapter
+				"delve", -- Go debug adapter
 			},
 		})
 	end,
